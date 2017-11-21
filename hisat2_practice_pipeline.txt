@@ -1,0 +1,337 @@
+locate -b hisat2 # to find where hisat2 is installed
+
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188044_chrX_1.fastq.gz -2 chrX_data/samples/ERR188044_chrX_2.fastq.gz -S ERR188044_chrX.sam
+1321477 reads; of these:
+  1321477 (100.00%) were paired; of these:
+    121769 (9.21%) aligned concordantly 0 times
+    1183443 (89.55%) aligned concordantly exactly 1 time
+    16265 (1.23%) aligned concordantly >1 times
+    ----
+    121769 pairs aligned concordantly 0 times; of these:
+      4200 (3.45%) aligned discordantly 1 time
+    ----
+    117569 pairs aligned 0 times concordantly or discordantly; of these:
+      235138 mates make up the pairs; of these:
+        119859 (50.97%) aligned 0 times
+        112782 (47.96%) aligned exactly 1 time
+        2497 (1.06%) aligned >1 times
+95.46% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188104_chrX_1.fastq.gz -2 chrX_data/samples/ERR188104_chrX_2.fastq.gz -S ERR188104_chrX.sam
+1292343 reads; of these:
+  1292343 (100.00%) were paired; of these:
+    105837 (8.19%) aligned concordantly 0 times
+    1171022 (90.61%) aligned concordantly exactly 1 time
+    15484 (1.20%) aligned concordantly >1 times
+    ----
+    105837 pairs aligned concordantly 0 times; of these:
+      3907 (3.69%) aligned discordantly 1 time
+    ----
+    101930 pairs aligned 0 times concordantly or discordantly; of these:
+      203860 mates make up the pairs; of these:
+        103193 (50.62%) aligned 0 times
+        98300 (48.22%) aligned exactly 1 time
+        2367 (1.16%) aligned >1 times
+96.01% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188234_chrX_1.fastq.gz -2 chrX_data/samples/ERR188234_chrX_2.fastq.gz -S ERR188234_chrX.sam
+1567664 reads; of these:
+  1567664 (100.00%) were paired; of these:
+    164224 (10.48%) aligned concordantly 0 times
+    1387119 (88.48%) aligned concordantly exactly 1 time
+    16321 (1.04%) aligned concordantly >1 times
+    ----
+    164224 pairs aligned concordantly 0 times; of these:
+      3882 (2.36%) aligned discordantly 1 time
+    ----
+    160342 pairs aligned 0 times concordantly or discordantly; of these:
+      320684 mates make up the pairs; of these:
+        162982 (50.82%) aligned 0 times
+        154606 (48.21%) aligned exactly 1 time
+        3096 (0.97%) aligned >1 times
+94.80% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188245_chrX_1.fastq.gz -2 chrX_data/samples/ERR188245_chrX_2.fastq.gz -S ERR188245_chrX.sam
+855983 reads; of these:
+  855983 (100.00%) were paired; of these:
+    66659 (7.79%) aligned concordantly 0 times
+    780590 (91.19%) aligned concordantly exactly 1 time
+    8734 (1.02%) aligned concordantly >1 times
+    ----
+    66659 pairs aligned concordantly 0 times; of these:
+      2264 (3.40%) aligned discordantly 1 time
+    ----
+    64395 pairs aligned 0 times concordantly or discordantly; of these:
+      128790 mates make up the pairs; of these:
+        65542 (50.89%) aligned 0 times
+        61844 (48.02%) aligned exactly 1 time
+        1404 (1.09%) aligned >1 times
+96.17% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188257_chrX_1.fastq.gz -2 chrX_data/samples/ERR188257_chrX_2.fastq.gz -S ERR188257_chrX.sam
+960410 reads; of these:
+  960410 (100.00%) were paired; of these:
+    94169 (9.81%) aligned concordantly 0 times
+    855867 (89.11%) aligned concordantly exactly 1 time
+    10374 (1.08%) aligned concordantly >1 times
+    ----
+    94169 pairs aligned concordantly 0 times; of these:
+      1806 (1.92%) aligned discordantly 1 time
+    ----
+    92363 pairs aligned 0 times concordantly or discordantly; of these:
+      184726 mates make up the pairs; of these:
+        94199 (50.99%) aligned 0 times
+        88319 (47.81%) aligned exactly 1 time
+        2208 (1.20%) aligned >1 times
+95.10% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188273_chrX_1.fastq.gz -2 chrX_data/samples/ERR188273_chrX_2.fastq.gz -S ERR188273_chrX.sam
+580042 reads; of these:
+  580042 (100.00%) were paired; of these:
+    50035 (8.63%) aligned concordantly 0 times
+    524863 (90.49%) aligned concordantly exactly 1 time
+    5144 (0.89%) aligned concordantly >1 times
+    ----
+    50035 pairs aligned concordantly 0 times; of these:
+      1360 (2.72%) aligned discordantly 1 time
+    ----
+    48675 pairs aligned 0 times concordantly or discordantly; of these:
+      97350 mates make up the pairs; of these:
+        50029 (51.39%) aligned 0 times
+        46366 (47.63%) aligned exactly 1 time
+        955 (0.98%) aligned >1 times
+95.69% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188337_chrX_1.fastq.gz -2 chrX_data/samples/ERR188337_chrX_2.fastq.gz -S ERR188337_chrX.sam
+1277811 reads; of these:
+  1277811 (100.00%) were paired; of these:
+    98064 (7.67%) aligned concordantly 0 times
+    1164533 (91.13%) aligned concordantly exactly 1 time
+    15214 (1.19%) aligned concordantly >1 times
+    ----
+    98064 pairs aligned concordantly 0 times; of these:
+      2405 (2.45%) aligned discordantly 1 time
+    ----
+    95659 pairs aligned 0 times concordantly or discordantly; of these:
+      191318 mates make up the pairs; of these:
+        97620 (51.02%) aligned 0 times
+        91033 (47.58%) aligned exactly 1 time
+        2665 (1.39%) aligned >1 times
+96.18% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188383_chrX_1.fastq.gz -2 chrX_data/samples/ERR188383_chrX_2.fastq.gz -S ERR188383_chrX.sam
+964467 reads; of these:
+  964467 (100.00%) were paired; of these:
+    59216 (6.14%) aligned concordantly 0 times
+    895288 (92.83%) aligned concordantly exactly 1 time
+    9963 (1.03%) aligned concordantly >1 times
+    ----
+    59216 pairs aligned concordantly 0 times; of these:
+      1915 (3.23%) aligned discordantly 1 time
+    ----
+    57301 pairs aligned 0 times concordantly or discordantly; of these:
+      114602 mates make up the pairs; of these:
+        58145 (50.74%) aligned 0 times
+        55171 (48.14%) aligned exactly 1 time
+        1286 (1.12%) aligned >1 times
+96.99% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188401_chrX_1.fastq.gz -2 chrX_data/samples/ERR188401_chrX_2.fastq.gz -S ERR188401_chrX.sam
+1317533 reads; of these:
+  1317533 (100.00%) were paired; of these:
+    98152 (7.45%) aligned concordantly 0 times
+    1203367 (91.33%) aligned concordantly exactly 1 time
+    16014 (1.22%) aligned concordantly >1 times
+    ----
+    98152 pairs aligned concordantly 0 times; of these:
+      3760 (3.83%) aligned discordantly 1 time
+    ----
+    94392 pairs aligned 0 times concordantly or discordantly; of these:
+      188784 mates make up the pairs; of these:
+        95361 (50.51%) aligned 0 times
+        91054 (48.23%) aligned exactly 1 time
+        2369 (1.25%) aligned >1 times
+96.38% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188428_chrX_1.fastq.gz -2 chrX_data/samples/ERR188428_chrX_2.fastq.gz -S ERR188428_chrX.sam
+843202 reads; of these:
+  843202 (100.00%) were paired; of these:
+    64039 (7.59%) aligned concordantly 0 times
+    771109 (91.45%) aligned concordantly exactly 1 time
+    8054 (0.96%) aligned concordantly >1 times
+    ----
+    64039 pairs aligned concordantly 0 times; of these:
+      2068 (3.23%) aligned discordantly 1 time
+    ----
+    61971 pairs aligned 0 times concordantly or discordantly; of these:
+      123942 mates make up the pairs; of these:
+        62763 (50.64%) aligned 0 times
+        59842 (48.28%) aligned exactly 1 time
+        1337 (1.08%) aligned >1 times
+96.28% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR188454_chrX_1.fastq.gz -2 chrX_data/samples/ERR188454_chrX_2.fastq.gz -S ERR188454_chrX.sam
+1040823 reads; of these:
+  1040823 (100.00%) were paired; of these:
+    68399 (6.57%) aligned concordantly 0 times
+    960126 (92.25%) aligned concordantly exactly 1 time
+    12298 (1.18%) aligned concordantly >1 times
+    ----
+    68399 pairs aligned concordantly 0 times; of these:
+      2024 (2.96%) aligned discordantly 1 time
+    ----
+    66375 pairs aligned 0 times concordantly or discordantly; of these:
+      132750 mates make up the pairs; of these:
+        67421 (50.79%) aligned 0 times
+        63964 (48.18%) aligned exactly 1 time
+        1365 (1.03%) aligned >1 times
+96.76% overall alignment rate
+Bio-KingLab-MBP1:hisat_practice ngomae$ hisat2 -p 8 --dta -x chrX_data/indexes/chrX_tran -1 chrX_data/samples/ERR204916_chrX_1.fastq.gz -2 chrX_data/samples/ERR204916_chrX_2.fastq.gz -S ERR204916_chrX.sam
+
+
+Sort and convert the SAM files to BAM
+samtools sort -@ 8 -o ERR188044_chrX.bam ERR188044_chrX.sam
+samtools sort -@ 8 -o ERR188104_chrX.bam ERR188104_chrX.sam
+samtools sort -@ 8 -o ERR188234_chrX.bam ERR188234_chrX.sam
+samtools sort -@ 8 -o ERR188245_chrX.bam ERR188245_chrX.sam
+samtools sort -@ 8 -o ERR188257_chrX.bam ERR188257_chrX.sam
+samtools sort -@ 8 -o ERR188273_chrX.bam ERR188273_chrX.sam
+samtools sort -@ 8 -o ERR188337_chrX.bam ERR188337_chrX.sam
+samtools sort -@ 8 -o ERR188383_chrX.bam ERR188383_chrX.sam
+samtools sort -@ 8 -o ERR188401_chrX.bam ERR188401_chrX.sam
+samtools sort -@ 8 -o ERR188428_chrX.bam ERR188428_chrX.sam
+samtools sort -@ 8 -o ERR188454_chrX.bam ERR188454_chrX.sam
+samtools sort -@ 8 -o ERR204916_chrX.bam ERR204916_chrX.sam
+
+ASSEMBLE AND QUANTIFY EXPRESSED GENES AND TRANSCRIPTS
+Assemble transcripts for each sample
+
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188044_chrX.gtf -l ERR188044 ERR188044_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188104_chrX.gtf -l ERR188104 ERR188104_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188234_chrX.gtf -l ERR188234 ERR188234_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188245_chrX.gtf -l ERR188245 ERR188245_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188257_chrX.gtf -l ERR188257 ERR188257_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188273_chrX.gtf -l ERR188273 ERR188273_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188337_chrX.gtf -l ERR188337 ERR188337_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188383_chrX.gtf -l ERR188383 ERR188383_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188401_chrX.gtf -l ERR188401 ERR188401_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188428_chrX.gtf -l ERR188428 ERR188428_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR188454_chrX.gtf -l ERR188454 ERR188454_chrX.bam 
+stringtie -p 8 -G chrX_data/genes/chrX.gtf -o ERR204916_chrX.gtf -l ERR204916 ERR204916_chrX.bam 
+
+
+Merge transcripts from all samples
+stringtie --merge -p 8 -G chrX_data/genes/chrX.gtf -o stringtie_merged.gtf chrX_data/mergelist.txt
+
+Examine how the transcripts compare with the reference annotation (optional):
+# gffcompare –r chrX_data/genes/chrX.gtf –G –o merged stringtie_merged.gtf
+
+Estimate transcript abundances and create table counts for Ballgown
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188044/ERR188044_chrX.gtf ERR188044_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188104/ERR188104_chrX.gtf ERR188104_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188234/ERR188234_chrX.gtf ERR188234_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188245/ERR188245_chrX.gtf ERR188245_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188257/ERR188257_chrX.gtf ERR188257_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188273/ERR188273_chrX.gtf ERR188273_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188337/ERR188337_chrX.gtf ERR188337_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188383/ERR188383_chrX.gtf ERR188383_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188401/ERR188401_chrX.gtf ERR188401_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188428/ERR188428_chrX.gtf ERR188428_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR188454/ERR188454_chrX.gtf ERR188454_chrX.bam
+stringtie -e -B -p 8 -G stringtie_merged.gtf -o ballgown/ERR204916/ERR204916_chrX.gtf ERR204916_chrX.bam
+
+Run differential expression analysis protocol
+R
+library(ballgown)
+library(genefilter)
+library(dplyr)
+library(devtools)
+
+Load phenotype data for samples
+pheno_data = read.csv("chrX_data/geuvadis_phenodata.csv")
+
+Read in the expression data that we calculated by StringTie
+bg_chrX = ballgown(dataDir = "ballgown", samplePattern = "ERR", pData=pheno_data)
+
+Filter to remove low-abundance genes - apply a variance filter (remove all transcripts 
+with a variance across samples less than one):
+bg_chrX_filt = subset(bg_chrX, "rowVars(texpr(bg_chrX)) >1", genomesubset=TRUE)
+
+Identify transcripts that show statistically significant differences between groups. 
+results_transcripts = stattest(bg_chrX_filt,
+feature="transcript", covariate="sex", adjustvars = c("population"), getFC=TRUE, meas="FPKM")
+
+Identify genes that show statistically significant differences between groups
+results_genes = stattest(bg_chrX_filt, feature="gene", covariate="sex", 
+adjustvars = c("population"), getFC=TRUE, meas="FPKM")
+
+Add gene names and gene IDs to the results_transcripts data frame
+results_transcripts = 
+data.frame(geneNames=ballgown::geneNames(bg_chrX_filt),
+geneIDs=ballgown::geneIDs(bg_chrX_filt), results_transcripts)
+
+Sort the results from the smallest P value to the largest
+results_transcripts = arrange(results_transcripts,pval)
+results_genes = arrange(results_genes,pval)
+
+Write results to a csv file that can be shared
+write.csv(results_transcripts, "chrX_transcript_results.csv", row.names=FALSE)
+write.csv(results_genes, "chrX_gene_results.csv", row.names=FALSE)
+
+Identify transcripts and genes with a q value < 0.05
+subset(results_transcripts, results_transcripts$qval<0.05)
+   geneNames   geneIDs    feature   id          fc         pval         qval
+1          . MSTRG.531 transcript 1657 0.030820591 1.427864e-10 2.082377e-07
+2       XIST MSTRG.531 transcript 1656 0.003014576 1.860927e-10 2.082377e-07
+3          . MSTRG.531 transcript 1655 0.016144997 3.762791e-10 2.807042e-07
+4          . MSTRG.531 transcript 1658 0.028308029 6.599039e-08 3.692163e-05
+5       TSIX MSTRG.530 transcript 1654 0.078461818 1.690716e-06 7.567643e-04
+6          . MSTRG.616 transcript 1848 7.391342987 1.249275e-05 4.659796e-03
+7          . MSTRG.141 transcript  421 3.204058932 2.729898e-05 8.727874e-03
+8          . MSTRG.620 transcript 1852 9.136857610 4.804244e-05 1.343987e-02
+9          . MSTRG.764 transcript 2338 0.127674288 1.000751e-04 2.488533e-02
+10     KDM6A MSTRG.258 transcript  736 0.054212867 1.173824e-04 2.627018e-02
+11    PNPLA4  MSTRG.65 transcript  186 0.592778584 2.083496e-04 4.238966e-02
+12     RPS4X MSTRG.519 transcript 1611 0.597532121 2.493976e-04 4.651265e-02
+
+subset(results_genes, results_genes$qval<0.05)
+   feature        id          fc         pval         qval
+1     gene MSTRG.531 0.002396124 2.469125e-11 2.523446e-08
+2     gene MSTRG.141 3.165966412 1.666206e-06 8.514310e-04
+3     gene MSTRG.530 0.082749314 7.018439e-06 2.390948e-03
+4     gene MSTRG.616 7.314423295 1.128589e-05 2.883544e-03
+5     gene MSTRG.620 9.050399157 5.022017e-05 1.026500e-02
+6     gene MSTRG.519 0.637382385 6.953432e-05 1.184401e-02
+7     gene MSTRG.376 0.620693674 1.134561e-04 1.656458e-02
+8     gene  MSTRG.65 0.600686117 1.638615e-04 2.093330e-02
+9     gene MSTRG.764 0.159178288 2.177206e-04 2.472338e-02
+10    gene MSTRG.622 7.870447732 3.737270e-04 3.527295e-02
+11    gene MSTRG.765 0.127712244 3.796501e-04 3.527295e-02
+12    gene MSTRG.231 1.412379185 4.200674e-04 3.577574e-02
+13    gene  MSTRG.28 4.158987103 5.279898e-04 4.150812e-02
+
+DATA VISUALIZATION
+Make the plots pretty
+tropical = c('darkorange', 'dodgerblue', 'hotpink', 'limegreen', 'yellow')
+palette(tropical)
+
+Show the distribution of gene abundances (measured as FPKM values) across samples, colored by sex 
+fpkm = texpr(bg_chrX, meas="FPKM")
+fpkm = log2(fpkm+1)
+boxplot(fpkm, col=as.numeric(pheno_data$sex), las=2, ylab='log2(FPKM+1)')
+
+Make plots of individual transcripts across samples
+ballgown::transcriptNames(bg_chrX) [12]
+ballgown::geneNames(bg_chrX)[12]
+
+plot(fpkm[12,] ~ pheno_data$sex, border=c(1,2), main=paste(ballgown::geneNames(bg_chrX)[12],':',
+ballgown::transcriptNames(bg_chrX)[12]), pch=19, xlab="sex", ylab='log2(FPKM+1)')
+points(fpkm[12,] ~ jitter(as.numeric(pheno_data$sex)), col=as.numeric(pheno_data$sex))
+
+Plot the structure and expression levels in a sample of all transcripts that share the same gene locus.
+plotTranscripts(ballgown::geneIDs(bg_chrX)[1729], bg_chrX, main=c('Gene XIST in sample ERR188234'), sample=c('ERR188234'))
+
+We can also plot the average expression levels for all transcripts of a gene within different groups using the plotMeans function.
+plotMeans('MSTRG.531', bg_chrX_filt, groupvar="sex", legend=FALSE)
+
+Copy from server to local computer
+scp -r engoma@nivalis.biology.missouri.edu:~/rna-seq/hisat_practice/Rplots.pdf ~/Dropbox/Resource/Programming/rna-seq/hisat2_practice/
+
+
+
+
+
+
+
+
+
