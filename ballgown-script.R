@@ -1,4 +1,5 @@
 # Evaluation of human X rna-seq data analyzed with new Tuxedo Suite
+# Ref:adapted from Pertea et al, (2016)
 
 # Run differential expression analysis protocol in Ballgown
 library(ballgown)
